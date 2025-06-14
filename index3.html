@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Day 3 Assignment - Structured Web Page</title>
+    <style>
+        .heading {
+            color: darkgreen;
+            text-align: center;
+        }
+        .info-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .info-table td, .info-table th {
+            border: 1px solid #333;
+            padding: 10px;
+        }
+        .form-section {
+            background-color: #e6f7ff;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!--
+    Day 3 Assignment: Structured Web Page using HTML Tables, Forms, Iframes, and Classes.
+    This version is created with different content for individual submission.
+    -->
+
+    <h1 class="heading">My Structured Web Page – Assignment Day 3</h1>
+
+    <h2>Course Information Table</h2>
+    <table class="info-table">
+        <tr>
+            <th>Course</th>
+            <th>Instructor</th>
+            <th>Duration</th>
+        </tr>
+        <tr>
+            <td>Web Development</td>
+            <td>Mr. Ajay Patil</td>
+            <td>6 Weeks</td>
+        </tr>
+        <tr>
+            <td>AutoCAD Civil</td>
+            <td>Ms. Komal Jain</td>
+            <td>4 Weeks</td>
+        </tr>
+    </table>
+
+    <div class="form-section">
+        <h2>Feedback Form</h2>
+        <form action="#">
+            Full Name: <input type="text" name="fullname"><br><br>
+            Course Taken: 
+            <select name="course">
+                <option value="web">Web Development</option>
+                <option value="autocad">AutoCAD Civil</option>
+            </select><br><br>
+            Feedback:<br>
+            <textarea name="feedback" rows="4" cols="40"></textarea><br><br>
+            <input type="submit" value="Submit Feedback">
+        </form>
+    </div>
+
+    <h2>Watch This Programming Guide</h2>
+    <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/ER9SspLe4Hg" 
+        title="C Programming Full Course - CodeWithHarry" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+    </iframe>
+
+</body>
+</html>
